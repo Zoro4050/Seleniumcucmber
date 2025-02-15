@@ -1,0 +1,15 @@
+package Assignment;
+
+public class posnegfactor {
+
+	public static void main(String[] args) {
+		int num = 20, temp = num;
+		if (num <= 0) {
+			for (int i = num; i<=-(num); ++i) {
+				
+			}
+		}
+
+	}
+
+}

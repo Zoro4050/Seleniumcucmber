@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T11:36:11 IST" name="Default suite" finished-at="2024-09-29T11:37:19 IST" duration-ms="68129">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T11:36:11 IST" name="Default test" finished-at="2024-09-29T11:37:19 IST" duration-ms="68129">
+      <class name="orangeHrmTestScript.TestPIM">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:11 IST" name="openBrowser" finished-at="2024-09-29T11:36:19 IST" duration-ms="8847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:19 IST" name="precondition" finished-at="2024-09-29T11:36:23 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testPIM_Creation()[pri:1, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:23 IST" name="testPIM_Creation" finished-at="2024-09-29T11:36:39 IST" duration-ms="16320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Creation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:39 IST" name="postcondition" finished-at="2024-09-29T11:36:40 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:40 IST" name="precondition" finished-at="2024-09-29T11:36:44 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testPIM_Update()[pri:2, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:44 IST" name="testPIM_Update" finished-at="2024-09-29T11:36:58 IST" depends-on-methods="orangeHrmTestScript.TestPIM.testPIM_Creation" duration-ms="14016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Update -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:58 IST" name="postcondition" finished-at="2024-09-29T11:36:59 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:36:59 IST" name="precondition" finished-at="2024-09-29T11:37:05 IST" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testPIM_Delete()[pri:3, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:37:05 IST" name="testPIM_Delete" finished-at="2024-09-29T11:37:18 IST" depends-on-methods="orangeHrmTestScript.TestPIM.testPIM_Creation" duration-ms="12352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIM_Delete -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:37:18 IST" name="postcondition" finished-at="2024-09-29T11:37:19 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHrmTestScript.TestPIM@3f191845]" started-at="2024-09-29T11:37:19 IST" name="closeBrowser" finished-at="2024-09-29T11:37:19 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHrmTestScript.TestPIM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

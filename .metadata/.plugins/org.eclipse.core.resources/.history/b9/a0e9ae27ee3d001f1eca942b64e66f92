@@ -1,0 +1,27 @@
+package Assignment;
+
+public class posnegfactor {
+
+	public static void main(String[] args) {
+		int num = 20;
+
+		if (num <= 0) {// if number is negative
+			for (int i = num; i <= -(num); ++i) {
+				if (i != 0) {
+					if (num % 10 == 0) {
+						System.out.println("Factors of negative number  " + num + "are :");
+					}
+				}
+			}
+		} else {// when number is posit
+			for (int i = 1; i <= num; ++i) {
+				System.out.println("Factors of positive number " + num + "are :");
+				if (num % 10 == 0) {
+					System.out.println(i+",");
+				}
+			}
+		}
+
+	}
+
+}
